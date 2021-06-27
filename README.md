@@ -61,7 +61,7 @@ Cuando hable de qué es [Axie Infinity](#axie-infinity) explico mejor para qué 
 1. Una [`wallet privada`](#glosario) de Ethereum, porque todo se compra en base a tokens [`$ETH`](#glosario)
     1. Personalmente yo uso [MetaMask](https://metamask.io/), pero pueden usar la que más les guste.
     2. Comprar $ETH en el lugar que más les guste (como [Ripio](https://www.ripio.com/ar/), [Tienda Dolar](https://tiendadolar.com.ar/), [Binance](https://www.binance.com/en), algún p2p, etc) y mandarlas a su wallet privada de Ethereum.
-2. Una [wallet de Ronin](https://chrome.google.com/webstore/detail/ronin-wallet/fnjhmkhhmkbjkkabndcnnogagogbneec), para luego [usar un bridge](https://bridge.axieinfinity.com/) y transformar $ETH en [`$wETH`](#glosario) y almacenar $wETH en la Ronin wallet. En esta wallet también podremos almacenar [`Axies`](#glosario), [`Land Plots`](#glosario) , [`Land Items`](#glosario), [`$AXS`](#glosario) <img src="assets/logo-axs.svg" style="width: 1.5em;" alt="$AXS logo" /> y [`$SLP`](#glosario) <img src="assets/logo-slp.png" style="width: 1.5em;" alt="$SLP logo" /> que compremos y/o ganemos.
+2. Una [wallet de Ronin](https://chrome.google.com/webstore/detail/ronin-wallet/fnjhmkhhmkbjkkabndcnnogagogbneec), para luego [usar un bridge](https://bridge.axieinfinity.com/) y transformar $ETH en [`$wETH`](#glosario) y almacenar $wETH en la Ronin wallet. En esta wallet también podremos almacenar [`Axies`](#glosario), [`Land Plots`](#glosario) , [`Land Items`](#glosario), [`$AXS`](#glosario) <img src="assets/logo-axs.svg" width="25" alt="$AXS logo" /> y [`$SLP`](#glosario) <img src="assets/logo-slp.png" width="25" alt="$SLP logo" /> que compremos y/o ganemos.
 3. [Comprar AL MENOS](https://marketplace.axieinfinity.com/axie) un total de 3 miembros ([`huevos`](#glosario) y/o Axies) para poder formar un [`grupo`](#glosario) y poder jugar.
 4. [Descargar e instalar](https://axieinfinity.com/) la aplicación del juego (disponible para Windows, Mac OS, Android y iOS). La aplicación tiene un instructivo bastante amigable de los pasos anteriores.
 <br />
@@ -78,7 +78,7 @@ Como juego, Axie Infinity es un universo donde viven unas mascotas (Axies), y se
 
 Al juego lo desarrolla [Sky Mavis](https://skymavis.com/), que es una startup vietnamita enfocada en [`dApps`](#glosario), que sacó bastante inversión inicial de varios nombres grandes, entre ellos [Marc Cuban](https://es.wikipedia.org/wiki/Mark_Cuban). Parte de la publicidad del juego fue que a través de su [`Scholarship Program`](#glosario) ([explicado más adelante](#scholarship-program)) lograron asistir económicamente a muchas familias rurales en Filipinas y "_salvarlos de la pobreza_".
 
-Como proyecto blockchain, posee [`tokens`](#glosario) de diferentes usos que funcionan sobre Ethereum (y por lo tanto, necesitamos una wallet de Ethereum para jugar). Los Axies son [`NFTs`](#glosario) (siguiendo estandard [ERC-721](https://ethereum.org/es/developers/docs/standards/tokens/erc-721/)), $AXS <img src="assets/logo-axs.svg" style="width: 1.5em;" alt="$AXS logo" /> son el [`governance token`](#glosario) y main token (estandard [ERC-20](https://ethereum.org/es/developers/docs/standards/tokens/erc-20/)), $SLP <img src="assets/logo-slp.png" style="width: 1.5em;" alt="$SLP logo" /> son un [`utility token`](#glosario) (estandard ERC-20) y es la principal moneda de cambio dentro del juego, y a futuro se pueden crear nuevos tokens con otras funcionalidades.
+Como proyecto blockchain, posee [`tokens`](#glosario) de diferentes usos que funcionan sobre Ethereum (y por lo tanto, necesitamos una wallet de Ethereum para jugar). Los Axies son [`NFTs`](#glosario) (siguiendo estandard [ERC-721](https://ethereum.org/es/developers/docs/standards/tokens/erc-721/)), $AXS <img src="assets/logo-axs.svg" width="25" alt="$AXS logo" /> son el [`governance token`](#glosario) y main token (estandard [ERC-20](https://ethereum.org/es/developers/docs/standards/tokens/erc-20/)), $SLP <img src="assets/logo-slp.png" width="25" alt="$SLP logo" /> son un [`utility token`](#glosario) (estandard ERC-20) y es la principal moneda de cambio dentro del juego, y a futuro se pueden crear nuevos tokens con otras funcionalidades.
 
 Además de eso, crearon una [`side-chain`](#glosario) llamada Ronin (con su propia wallet) para alivianar las transacciones ([`TXs`](#glosario)) y los costos de las TXs. Cada vez que hacemos algo (comprar un Axie, breeding, vender alguno de los tokens, comprar tokens, enviar tokens de una wallet a otra, etc) realizamos una TX que la blockchain tiene que procesar, y cada TX realizada paga un [`fee`](#glosario). En la blockchain de Ethereum, esos fees se llaman "gas", y dependiendo el momento del mercado, puede ser MUY caro (decenas y decenas de USD cada TX). Para resolver esto, crearon Ronin para hacer la mayoría de las transacciones FUERA de Ethereum, y cuando sea necesario, empaquetar las TXs necesarias y procesarlas como una sola TX dentro de Ethereum para ahorrar costos al usuario.
 
@@ -87,12 +87,12 @@ Además de eso, crearon una [`side-chain`](#glosario) llamada Ronin (con su prop
 <br />
 
 ## Cómo se monetiza?
-Tanto los Axies como así también los $AXS <img src="assets/logo-axs.svg" style="width: 1.5em;" alt="$AXS logo" /> y $SLP <img src="assets/logo-slp.png" style="width: 1.5em;" alt="$SLP logo" /> que consigamos, se pueden vender en diferentes mercados. Los Axies los podemos vender a otros jugadores, y los [$AXS](https://www.coingecko.com/es/monedas/axie-infinity) <img src="assets/logo-axs.svg" style="width: 1.5em;" alt="$AXS logo" /> y [$SLP](https://www.coingecko.com/es/monedas/smooth-love-potion) <img src="assets/logo-slp.png" style="width: 1.5em;" alt="$SLP logo" /> los podemos vender en lugares como Binance. A la hora de hacer esta guía y como referencia:
+Tanto los Axies como así también los $AXS <img src="assets/logo-axs.svg" width="25" alt="$AXS logo" /> y $SLP <img src="assets/logo-slp.png" width="25" alt="$SLP logo" /> que consigamos, se pueden vender en diferentes mercados. Los Axies los podemos vender a otros jugadores, y los [$AXS](https://www.coingecko.com/es/monedas/axie-infinity) <img src="assets/logo-axs.svg" width="25" alt="$AXS logo" /> y [$SLP](https://www.coingecko.com/es/monedas/smooth-love-potion) <img src="assets/logo-slp.png" width="25" alt="$SLP logo" /> los podemos vender en lugares como Binance. A la hora de hacer esta guía y como referencia:
 * Los Axies/huevos más baratos, salen USD 100 en general
-* $AXS <img src="assets/logo-axs.svg" style="width: 1.5em;" alt="$AXS logo" /> tiene un precio de USD 3.63 por token
-* $SLP <img src="assets/logo-slp.png" style="width: 1.5em;" alt="$SLP logo" /> tiene un precio de USD 0.129 por token
+* $AXS <img src="assets/logo-axs.svg" width="25" alt="$AXS logo" /> tiene un precio de USD 3.63 por token
+* $SLP <img src="assets/logo-slp.png" width="25" alt="$SLP logo" /> tiene un precio de USD 0.129 por token
 
-La forma más simple de monetizar hoy, con el menor esfuerzo, es [`farmear`](#glosario) $SLP <img src="assets/logo-slp.png" style="width: 1.5em;" alt="$SLP logo" /> haciendo PvE. Por día se pueden obtener 100 SLP jugando el modo Aventura, el tiempo para lograr ese límite es relativo al grupo que tengas y el nivel que tengas, pero inicialmente una buena estimación sería cerca de 3h~3.5h y luego el tiempo se va reduciendo porque hay guías para optimizar el farming (explicado más adelante) de $SLP <img src="assets/logo-slp.png" style="width: 1.5em;" alt="$SLP logo" />, reduciéndose a quizá 1.5h o quizá un poco menos en un lapso de un par de meses. Adicional a esa base, se puede hacer una misión diaria que brinda 50 SLP extra. 
+La forma más simple de monetizar hoy, con el menor esfuerzo, es [`farmear`](#glosario) $SLP <img src="assets/logo-slp.png" width="25" alt="$SLP logo" /> haciendo PvE. Por día se pueden obtener 100 SLP jugando el modo Aventura, el tiempo para lograr ese límite es relativo al grupo que tengas y el nivel que tengas, pero inicialmente una buena estimación sería cerca de 3h~3.5h y luego el tiempo se va reduciendo porque hay guías para optimizar el farming (explicado más adelante) de $SLP <img src="assets/logo-slp.png" width="25" alt="$SLP logo" />, reduciéndose a quizá 1.5h o quizá un poco menos en un lapso de un par de meses. Adicional a esa base, se puede hacer una misión diaria que brinda 50 SLP extra. 
 <br />
 <br />
 
@@ -111,11 +111,11 @@ A grosso modo, a valores y variable de hoy, en aprox. 1 mes de farmeo bien hecho
 ## Otras formas de monetizar
 Lo que puse arriba es la forma más simple y rápida de monetizarse. Otra forma es a través del breeding (explicado más adelante) para generar nuevos huevos y venderlos en el marketplace. A precios de hoy, los más baratos rondan USD 100, así que SUPONGO que poniendo en el marketplace ya sea ese huevo o el Axie que sale 5 días después de ahí, a un precio de unos USD 60~80, debería ser una venta relativamente rápida, pero como adelanto, comprando 3 Axies podés generar un esquema de reproducción infinita. El breeding tiene un costo adicional, asi que eso complejiza esta forma de monetizar (no por ello menos viable). Pero esto voy a expandirlo en la sección de breeding.
 
-Haciendo misiones particulares y contenido particular en los land plots (explicado más adelante) se puede farmear $AXS <img src="assets/logo-axs.svg" style="width: 1.5em;" alt="$AXS logo" /> pero no hay mucha información sobre esto en particular (todavía), así que no sé qué tan viable es.
+Haciendo misiones particulares y contenido particular en los land plots (explicado más adelante) se puede farmear $AXS <img src="assets/logo-axs.svg" width="25" alt="$AXS logo" /> pero no hay mucha información sobre esto en particular (todavía), así que no sé qué tan viable es.
 
 Creando contenido a través de Lunacia SDK provisto por Axie Infinity, accedemos a un editor de mapas donde usamos recursos digitales del juego para crear juegos y/o experiencias. Esto termina creando un NFT que se puede vender, el objetivo es poner estos NFTs en los land plots y luego el jugador que lo usa, puede acceder al mini juego o experiencia.
 
-A partir de una etapa en particular del PvP, empiezan a aumentar las posibles recompensas de $SLP <img src="assets/logo-slp.png" style="width: 1.5em;" alt="$SLP logo" /> que recibimos (explicado más adelante), pudiendo aumentar la cantidad farmeada por mes.
+A partir de una etapa en particular del PvP, empiezan a aumentar las posibles recompensas de $SLP <img src="assets/logo-slp.png" width="25" alt="$SLP logo" /> que recibimos (explicado más adelante), pudiendo aumentar la cantidad farmeada por mes.
 <br />
 <br />
 
@@ -140,7 +140,7 @@ Es un programa para otorgar becas, en donde una persona provee una cuenta con 3 
 * Que el Becado haga multicuenta, y puede incurrir en un ban a los Axies del Scholar (y por lo tanto, caga el Scholar).
 * Que el Scholar no reparta una mierda las ganancias, entonces el que caga es el Becado.
 
-**IMPORTANTE:** El Becado tiene acceso a una cuenta (cuyo ingreso es con e-mail y contraseña) pero no tiene acceso a la wallet donde están los tokens (sean los Axies, los $SLP <img src="assets/logo-slp.png" style="width: 1.5em;" alt="$SLP logo" />, los $AXS <img src="assets/logo-axs.svg" style="width: 1.5em;" alt="$AXS logo" />, o cualquier otro token de esa wallet), por lo tanto el Becado SOLAMENTE puede jugar sin poder comprometer la integridad de los assets que tiene el Scholar de la Scholarship.
+**IMPORTANTE:** El Becado tiene acceso a una cuenta (cuyo ingreso es con e-mail y contraseña) pero no tiene acceso a la wallet donde están los tokens (sean los Axies, los $SLP <img src="assets/logo-slp.png" width="25" alt="$SLP logo" />, los $AXS <img src="assets/logo-axs.svg" width="25" alt="$AXS logo" />, o cualquier otro token de esa wallet), por lo tanto el Becado SOLAMENTE puede jugar sin poder comprometer la integridad de los assets que tiene el Scholar de la Scholarship.
 <br />
 <br />
 
@@ -182,69 +182,69 @@ Hay 3 grupos, y 9 clases (y en cada grupo hay 3 clases). El funcionamiento es si
   <figcaption>Dinámicas entre grupos de clases, <a href="http://axie.wiki/index.php?title=Classes" target="_blank">fuente</a></figcaption>
 </figure>
 
-* Dusk <img src="assets/logo-class-dusk.png" style="width: 1.5em;" alt="Dusk class logo" />, Plant <img src="assets/logo-class-plant.png" style="width: 1.5em;" alt="Plant class logo" /> y Reptile <img src="assets/logo-class-reptile.png" style="width: 1.5em;" alt="Reptile class logo" />
-* Beast <img src="assets/logo-class-beast.png" style="width: 1.5em;" alt="Beast class logo" />, Bug <img src="assets/logo-class-bug.png" style="width: 1.5em;" alt="Bug class logo" /> y Mech <img src="assets/logo-class-mech.png" style="width: 1.5em;" alt="Mech class logo" />
-* Aquatic <img src="assets/logo-class-aquatic.png" style="width: 1.5em;" alt="Aquatic class logo" />, Bird <img src="assets/logo-class-bird.png" style="width: 1.5em;" alt="Bird class logo" /> y Dawn <img src="assets/logo-class-dawn.png" style="width: 1.5em;" alt="Dawn class logo" />
+* Dusk <img src="assets/logo-class-dusk.png" width="25" alt="Dusk class logo" />, Plant <img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" /> y Reptile <img src="assets/logo-class-reptile.png" width="25" alt="Reptile class logo" />
+* Beast <img src="assets/logo-class-beast.png" width="25" alt="Beast class logo" />, Bug <img src="assets/logo-class-bug.png" width="25" alt="Bug class logo" /> y Mech <img src="assets/logo-class-mech.png" width="25" alt="Mech class logo" />
+* Aquatic <img src="assets/logo-class-aquatic.png" width="25" alt="Aquatic class logo" />, Bird <img src="assets/logo-class-bird.png" width="25" alt="Bird class logo" /> y Dawn <img src="assets/logo-class-dawn.png" width="25" alt="Dawn class logo" />
 
-**Ejemplo 1:** si un Beast <img src="assets/logo-class-beast.png" style="width: 1.5em;" alt="Beast class logo" /> recibe un ataque Bird <img src="assets/logo-class-bird.png" style="width: 1.5em;" alt="Bird class logo" />, recibe +15% de daño. <br />
-**Ejemplo 2:** si un Bird <img src="assets/logo-class-bird.png" style="width: 1.5em;" alt="Bird class logo" /> recibe un ataque Beast <img src="assets/logo-class-beast.png" style="width: 1.5em;" alt="Beast class logo" />, recibe -15% de daño. <br />
-**Ejemplo 3:** si un Plant <img src="assets/logo-class-plant.png" style="width: 1.5em;" alt="Plant class logo" /> recibe un ataque Reptile <img src="assets/logo-class-reptile.png" style="width: 1.5em;" alt="Reptile class logo" />, no recibe modificador de daño.
+**Ejemplo 1:** si un Beast <img src="assets/logo-class-beast.png" width="25" alt="Beast class logo" /> recibe un ataque Bird <img src="assets/logo-class-bird.png" width="25" alt="Bird class logo" />, recibe +15% de daño. <br />
+**Ejemplo 2:** si un Bird <img src="assets/logo-class-bird.png" width="25" alt="Bird class logo" /> recibe un ataque Beast <img src="assets/logo-class-beast.png" width="25" alt="Beast class logo" />, recibe -15% de daño. <br />
+**Ejemplo 3:** si un Plant <img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" /> recibe un ataque Reptile <img src="assets/logo-class-reptile.png" width="25" alt="Reptile class logo" />, no recibe modificador de daño.
 
-**IMPORTANTE:** notar que digo "ataque Bird <img src="assets/logo-class-bird.png" style="width: 1.5em;" alt="Bird class logo" />" y no "un axie Bird <img src="assets/logo-class-bird.png" style="width: 1.5em;" alt="Bird class logo" />222222" para la aplicación de modificadores de daño en base a clases. Eso lo voy a explicar en la [siguiente sección](#composición-física-del-axie), con ejemplos numéricos.
+**IMPORTANTE:** notar que digo "ataque Bird <img src="assets/logo-class-bird.png" width="25" alt="Bird class logo" />" y no "un axie Bird <img src="assets/logo-class-bird.png" width="25" alt="Bird class logo" />222222" para la aplicación de modificadores de daño en base a clases. Eso lo voy a explicar en la [siguiente sección](#composición-física-del-axie), con ejemplos numéricos.
 
 [`<-- CLICK PARA SALTEAR -->`](#composición-física-del-axie)
 
 Gran parte de esto lo voy a cubrir [en la sección de combate](#combate), como los roles dentro de un team en base a las clases, estadísticas y acciones (en base a las partes de un Axie). 
 
-Las clases Dusk <img src="assets/logo-class-dusk.png" style="width: 1.5em;" alt="Dusk class logo" /> (también conocida como Moon), Dawn <img src="assets/logo-class-dawn.png" style="width: 1.5em;" alt="Dawn class logo" /> (también conocida como Star) y Mech <img src="assets/logo-class-mech.png" style="width: 1.5em;" alt="Mech class logo" /> (también conocida como Nut) son llamadas "clases secretas" ya que solo se pueden obtener a través de breeding específicos, y aún así hay solo un 33% de chances de conseguir una clase secreta. Todo esto lo voy a cubrir mejor en la [sección de breeding](#breeding)
+Las clases Dusk <img src="assets/logo-class-dusk.png" width="25" alt="Dusk class logo" /> (también conocida como Moon), Dawn <img src="assets/logo-class-dawn.png" width="25" alt="Dawn class logo" /> (también conocida como Star) y Mech <img src="assets/logo-class-mech.png" width="25" alt="Mech class logo" /> (también conocida como Nut) son llamadas "clases secretas" ya que solo se pueden obtener a través de breeding específicos, y aún así hay solo un 33% de chances de conseguir una clase secreta. Todo esto lo voy a cubrir mejor en la [sección de breeding](#breeding)
 
 Grupo:
-* <img src="assets/logo-class-plant.png" style="width: 1.5em;" alt="Plant class logo" /> Plant: tienen *HP* perfecta.
-* <img src="assets/logo-class-dusk.png" style="width: 1.5em;" alt="Dusk class logo" /> Dusk: tienen *Skill* muy alta.
-* <img src="assets/logo-class-reptile.png" style="width: 1.5em;" alt="Reptile class logo" /> Reptile: tienen *HP* muy alta.
+* <img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" /> Plant: tienen *HP* perfecta.
+* <img src="assets/logo-class-dusk.png" width="25" alt="Dusk class logo" /> Dusk: tienen *Skill* muy alta.
+* <img src="assets/logo-class-reptile.png" width="25" alt="Reptile class logo" /> Reptile: tienen *HP* muy alta.
 
 Grupo:
-* <img src="assets/logo-class-beast.png" style="width: 1.5em;" alt="Beast class logo" /> Beast: tienen *Morale* perfecta.
-* <img src="assets/logo-class-bug.png" style="width: 1.5em;" alt="Bug class logo" /> Bug: tienen *Morale* muy alta.
-* <img src="assets/logo-class-mech.png" style="width: 1.5em;" alt="Mech class logo" /> Mech: tienen *Skill* perfecta y *Speed* muy alta.
+* <img src="assets/logo-class-beast.png" width="25" alt="Beast class logo" /> Beast: tienen *Morale* perfecta.
+* <img src="assets/logo-class-bug.png" width="25" alt="Bug class logo" /> Bug: tienen *Morale* muy alta.
+* <img src="assets/logo-class-mech.png" width="25" alt="Mech class logo" /> Mech: tienen *Skill* perfecta y *Speed* muy alta.
 <br />
 
 Grupo:
-* <img src="assets/logo-class-bird.png" style="width: 1.5em;" alt="Bird class logo" /> Bird: tienen *Speed* perfecta.
-* <img src="assets/logo-class-aquatic.png" style="width: 1.5em;" alt="Aquatic class logo" /> Aquatic: tienen *HP* y *Speed* muy altos.
-* <img src="assets/logo-class-dawn.png" style="width: 1.5em;" alt="Dawn class logo" /> Dawn: tienen *Skill* muy alta.
+* <img src="assets/logo-class-bird.png" width="25" alt="Bird class logo" /> Bird: tienen *Speed* perfecta.
+* <img src="assets/logo-class-aquatic.png" width="25" alt="Aquatic class logo" /> Aquatic: tienen *HP* y *Speed* muy altos.
+* <img src="assets/logo-class-dawn.png" width="25" alt="Dawn class logo" /> Dawn: tienen *Skill* muy alta.
 
 `<-- FIN SALTEABLE -->`
 <br />
 <br />
 
 ## Composición física del Axie
-Un Axie está compuesto por un body, y 6 body parts que van "pegadas" al body. Tanto las partes como el cuerpo tienen una clase particular, es decir que podemos tener un Axie Plant <img src="assets/logo-class-plant.png" style="width: 1.5em;" alt="Plant class logo" /> con partes de otras clases, o un Axie Plant <img src="assets/logo-class-plant.png" style="width: 1.5em;" alt="Plant class logo" /> con todas partes Plant <img src="assets/logo-class-plant.png" style="width: 1.5em;" alt="Plant class logo" />. Además, cada parte otorga un bono de stats según su clase.
+Un Axie está compuesto por un body, y 6 body parts que van "pegadas" al body. Tanto las partes como el cuerpo tienen una clase particular, es decir que podemos tener un Axie Plant <img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" /> con partes de otras clases, o un Axie Plant <img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" /> con todas partes Plant <img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" />. Además, cada parte otorga un bono de stats según su clase.
 
 Stats por part class.
-* <img src="assets/logo-class-aquatic.png" style="width: 1.5em;" alt="Aquatic class logo" /> Aquatic: +3 Speed, +1 HP.
-* <img src="assets/logo-class-beast.png" style="width: 1.5em;" alt="Beast class logo" /> Beast: +3 Morale, +1 Speed.
-* <img src="assets/logo-class-bird.png" style="width: 1.5em;" alt="Bird class logo" /> Bird: +3 Speed, +1 Morale.
-* <img src="assets/logo-class-bug.png" style="width: 1.5em;" alt="Bug class logo" /> Bug: +3 Morale, +1 HP.
-* <img src="assets/logo-class-plant.png" style="width: 1.5em;" alt="Plant class logo" /> Plant: +3 HP, +1 Morale.
-* <img src="assets/logo-class-reptile.png" style="width: 1.5em;" alt="Reptile class logo" /> Reptile: +3 HP, +1 Speed.
-* <img src="assets/logo-class-dawn.png" style="width: 1.5em;" alt="Dawn class logo" /><img src="assets/logo-class-dusk.png" style="width: 1.5em;" alt="Dusk class logo" /><img src="assets/logo-class-mech.png" style="width: 1.5em;" alt="Mech class logo" /> Dawn, Dusk y Mech no tienen body parts aún.
+* <img src="assets/logo-class-aquatic.png" width="25" alt="Aquatic class logo" /> Aquatic: +3 Speed, +1 HP.
+* <img src="assets/logo-class-beast.png" width="25" alt="Beast class logo" /> Beast: +3 Morale, +1 Speed.
+* <img src="assets/logo-class-bird.png" width="25" alt="Bird class logo" /> Bird: +3 Speed, +1 Morale.
+* <img src="assets/logo-class-bug.png" width="25" alt="Bug class logo" /> Bug: +3 Morale, +1 HP.
+* <img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" /> Plant: +3 HP, +1 Morale.
+* <img src="assets/logo-class-reptile.png" width="25" alt="Reptile class logo" /> Reptile: +3 HP, +1 Speed.
+* <img src="assets/logo-class-dawn.png" width="25" alt="Dawn class logo" /><img src="assets/logo-class-dusk.png" width="25" alt="Dusk class logo" /><img src="assets/logo-class-mech.png" width="25" alt="Mech class logo" /> Dawn, Dusk y Mech no tienen body parts aún.
 
 Entonces por ejemplo, los Axies "pura raza" son los que tienen el body y todas las body parts de la misma clase. Y en base a los stats base más los bonos de cada clase, hay 3 clases que tienen stat base perfecto (43 puntos) y a su vez tienen partes con bonificador en ese mismo stat perfecto (+3 cada parte, en 6 body parts, son +18 puntos):
-* 61 HP, Plants <img src="assets/logo-class-plant.png" style="width: 1.5em;" alt="Plant class logo" />.
-* 61 Morale, Beasts <img src="assets/logo-class-beast.png" style="width: 1.5em;" alt="Beast class logo" />.
-* 61 Speed, Birds <img src="assets/logo-class-bird.png" style="width: 1.5em;" alt="Bird class logo" />.
+* 61 HP, Plants <img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" />.
+* 61 Morale, Beasts <img src="assets/logo-class-beast.png" width="25" alt="Beast class logo" />.
+* 61 Speed, Birds <img src="assets/logo-class-bird.png" width="25" alt="Bird class logo" />.
 
 A su vez, de las 6 partes, solo 4 tienen un movement asociado además de otorgar stats: Back, Horns, Mouth, Tail. Estos movements son los que se usan en un combate entre Axies. Las otras dos partes que son Eyes y Ears solo aportan los stats. Cada movement tiene asociada una carta que especifica todo respecto a ese movement.
 
 <figure align="center">
   <img src="assets/axie-parts-mixed.png" alt="Aquatic axie with mixed parts" />
-  <figcaption>Axie Aquatic <img src="assets/logo-class-aquatic.png" style="width: 1.5em;" alt="Aquatic class logo" /> con partes mezcladas, <a href="https://marketplace.axieinfinity.com/axie/833263" target="_blank">fuente</a></figcaption>
+  <figcaption>Axie Aquatic <img src="assets/logo-class-aquatic.png" width="25" alt="Aquatic class logo" /> con partes mezcladas, <a href="https://marketplace.axieinfinity.com/axie/833263" target="_blank">fuente</a></figcaption>
 </figure>
 
-* En el recuadro 0, vemos las partes que NO aportan Movements. Los ojos son Bird <img src="assets/logo-class-bird.png" style="width: 1.5em;" alt="Bird class logo" />, las orejas son Aquatic <img src="assets/logo-class-aquatic.png" style="width: 1.5em;" alt="Aquatic class logo" />
-* En el recuadro 1, vemos las partes que son Beast <img src="assets/logo-class-beast.png" style="width: 1.5em;" alt="Beast class logo" />, en este caso todas aportan Movements.
-* En el recuadro 2, vemos las partes que son Aquatic <img src="assets/logo-class-aquatic.png" style="width: 1.5em;" alt="Aquatic class logo" />, en este caso, solo Mouth (Piranha) y Tail (Nimo) aportan movements.
+* En el recuadro 0, vemos las partes que NO aportan Movements. Los ojos son Bird <img src="assets/logo-class-bird.png" width="25" alt="Bird class logo" />, las orejas son Aquatic <img src="assets/logo-class-aquatic.png" width="25" alt="Aquatic class logo" />
+* En el recuadro 1, vemos las partes que son Beast <img src="assets/logo-class-beast.png" width="25" alt="Beast class logo" />, en este caso todas aportan Movements.
+* En el recuadro 2, vemos las partes que son Aquatic <img src="assets/logo-class-aquatic.png" width="25" alt="Aquatic class logo" />, en este caso, solo Mouth (Piranha) y Tail (Nimo) aportan movements.
 
 // De acá hacia abajo, moverlo a la sección Combate cuando acomode info?
 <figure align="center">
@@ -260,15 +260,15 @@ De arriba hacia abajo, y de izquierda a derecha, las partes de una carta son:
 * Ilustración
 * Caja de texto con descripción del movimiento, en este caso: Hacer +120% de daño si este movimiento se juega junto a otro movimiento "Nut Cracker"
 
-[Cuando hablé de las dinámicas entre clases](#clases-de-un-axie) hice una aclaración, y me refería a esto: los modificadores aplican si el ATAQUE (es decir, la clase de la parte que otorga el movimiento) tiene ventaja o desventaja contra el Axie atacado. Por ejemplo, si yo ataco con "Nut crack" a un Plant <img src="assets/logo-class-plant.png" style="width: 1.5em;" alt="Plant class logo" />, Reptile <img src="assets/logo-class-reptile.png" style="width: 1.5em;" alt="Reptile class logo" /> o Dusk <img src="assets/logo-class-dusk.png" style="width: 1.5em;" alt="Dusk class logo" />, voy a tener +15% de daño. Puedo tener un Axie con cuerpo Aquatic <img src="assets/logo-class-aquatic.png" style="width: 1.5em;" alt="Aquatic class logo" /> y con el movimiento Nut Crack, y si con ese Axie usara ese movimiento en un enemigo con class Plant<img src="assets/logo-class-plant.png" style="width: 1.5em;" alt="Plant class logo" />/Reptile<img src="assets/logo-class-reptile.png" style="width: 1.5em;" alt="Reptile class logo" />/Dusk<img src="assets/logo-class-dusk.png" style="width: 1.5em;" alt="Dusk class logo" />, si bien el cuerpo de mi Axie (Aquatic <img src="assets/logo-class-aquatic.png" style="width: 1.5em;" alt="Aquatic class logo" />) tiene desventaja contra ese grupo, el movimiento (Beast <img src="assets/logo-class-beast.png" style="width: 1.5em;" alt="Beast class logo" />) tiene ventaja y va a recibir el modificador +15% de todas formas.
+[Cuando hablé de las dinámicas entre clases](#clases-de-un-axie) hice una aclaración, y me refería a esto: los modificadores aplican si el ATAQUE (es decir, la clase de la parte que otorga el movimiento) tiene ventaja o desventaja contra el Axie atacado. Por ejemplo, si yo ataco con "Nut crack" a un Plant <img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" />, Reptile <img src="assets/logo-class-reptile.png" width="25" alt="Reptile class logo" /> o Dusk <img src="assets/logo-class-dusk.png" width="25" alt="Dusk class logo" />, voy a tener +15% de daño. Puedo tener un Axie con cuerpo Aquatic <img src="assets/logo-class-aquatic.png" width="25" alt="Aquatic class logo" /> y con el movimiento Nut Crack, y si con ese Axie usara ese movimiento en un enemigo con class Plant<img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" />/Reptile<img src="assets/logo-class-reptile.png" width="25" alt="Reptile class logo" />/Dusk<img src="assets/logo-class-dusk.png" width="25" alt="Dusk class logo" />, si bien el cuerpo de mi Axie (Aquatic <img src="assets/logo-class-aquatic.png" width="25" alt="Aquatic class logo" />) tiene desventaja contra ese grupo, el movimiento (Beast <img src="assets/logo-class-beast.png" width="25" alt="Beast class logo" />) tiene ventaja y va a recibir el modificador +15% de todas formas.
 
 Otra cosa a tener en cuenta, es que usando un movimiento de la misma clase que el cuerpo de mi Axie, obtengo un +10% beneficio tanto en Attack como Shield.
 
-Ejemplo 1: Tengo un Axie cuerpo Beast <img src="assets/logo-class-beast.png" style="width: 1.5em;" alt="Beast class logo" /> con movimiento Nut Crack. Si ataco a otro Beast <img src="assets/logo-class-beast.png" style="width: 1.5em;" alt="Beast class logo" />, el resultado va a ser:
+Ejemplo 1: Tengo un Axie cuerpo Beast <img src="assets/logo-class-beast.png" width="25" alt="Beast class logo" /> con movimiento Nut Crack. Si ataco a otro Beast <img src="assets/logo-class-beast.png" width="25" alt="Beast class logo" />, el resultado va a ser:
 * Attack: 105 + 11 (10% adicional por compartir la misma clase entre Body y Body Part) = 116
 * Shield: 30 + 3 (10% adicional por compartir la misma clase entre Body y Body Part) = 33
 
-Ejemplo 2: Mismo Axie Beast <img src="assets/logo-class-beast.png" style="width: 1.5em;" alt="Beast class logo" />, usando ese mismo movimiento a un Axie Plant <img src="assets/logo-class-plant.png" style="width: 1.5em;" alt="Plant class logo" />:
+Ejemplo 2: Mismo Axie Beast <img src="assets/logo-class-beast.png" width="25" alt="Beast class logo" />, usando ese mismo movimiento a un Axie Plant <img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" />:
 * Attack: 105 + 11 + 16 (+15% por modificador al tener ventaja de clase) = 132
 * Shield: 30 + 3 + 5 (+15% por modificador al tener ventaja de clase) = 38
 
