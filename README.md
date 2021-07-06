@@ -248,8 +248,8 @@ A su vez, de las 6 partes, solo 4 tienen un movement asociado además de otorgar
 </figure>
 
 * En el recuadro 0, vemos las partes que NO aportan Movements. Los ojos son Bird <img src="assets/logo-class-bird.png" width="25" alt="Bird class logo" />, las orejas son Aquatic <img src="assets/logo-class-aquatic.png" width="25" alt="Aquatic class logo" />
-* En el recuadro 1, vemos las partes que son Beast <img src="assets/logo-class-beast.png" width="25" alt="Beast class logo" />, en este caso todas aportan Movements.
-* En el recuadro 2, vemos las partes que son Aquatic <img src="assets/logo-class-aquatic.png" width="25" alt="Aquatic class logo" />, en este caso, solo Mouth (Piranha) y Tail (Nimo) aportan movements.
+* En el recuadro 2, vemos las partes que son Beast <img src="assets/logo-class-beast.png" width="25" alt="Beast class logo" />, en este caso todas aportan Movements.
+* En el recuadro 3, vemos las partes que son Aquatic <img src="assets/logo-class-aquatic.png" width="25" alt="Aquatic class logo" />, en este caso, solo Mouth (Piranha) y Tail (Nimo) aportan movements.
 
 <figure align="center">
   <img src="assets/axie-parts-movement.png" alt="Nut Crack movement explained" />
