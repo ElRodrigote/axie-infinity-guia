@@ -214,6 +214,11 @@ Grupo:
 * <img src="assets/logo-class-aquatic.png" width="25" alt="Aquatic class logo" /> Aquatic: tienen *HP* y *Speed* muy altos.
 * <img src="assets/logo-class-dawn.png" width="25" alt="Dawn class logo" /> Dawn: tienen *Skill* muy alta.
 
+<figure align="center">
+  <img src="assets/classes-stats.jpg" alt="Initial stats by class" />
+  <figcaption>Stats iniciales por clase, <a href="https://metahub.info/2021/555-a-complete-guide-to-axie-infinitys-axies/" target="_blank">fuente</a></figcaption>
+</figure>
+
 `<-- FIN SALTEABLE -->`
 <br />
 <br />
@@ -246,7 +251,6 @@ A su vez, de las 6 partes, solo 4 tienen un movement asociado además de otorgar
 * En el recuadro 1, vemos las partes que son Beast <img src="assets/logo-class-beast.png" width="25" alt="Beast class logo" />, en este caso todas aportan Movements.
 * En el recuadro 2, vemos las partes que son Aquatic <img src="assets/logo-class-aquatic.png" width="25" alt="Aquatic class logo" />, en este caso, solo Mouth (Piranha) y Tail (Nimo) aportan movements.
 
-// De acá hacia abajo, moverlo a la sección Combate cuando acomode info?
 <figure align="center">
   <img src="assets/axie-parts-movement.png" alt="Nut Crack movement explained" />
   <figcaption>Nut Crack movement, explicado</figcaption>
@@ -259,8 +263,17 @@ De arriba hacia abajo, y de izquierda a derecha, las partes de una carta son:
 * Shield (escudo) que otorga el movimiento al Axie (30)
 * Ilustración
 * Caja de texto con descripción del movimiento, en este caso: Hacer +120% de daño si este movimiento se juega junto a otro movimiento "Nut Cracker"
+<br />
+<br />
+<br />
 
-[Cuando hablé de las dinámicas entre clases](#clases-de-un-axie) hice una aclaración, y me refería a esto: los modificadores aplican si el ATAQUE (es decir, la clase de la parte que otorga el movimiento) tiene ventaja o desventaja contra el Axie atacado. Por ejemplo, si yo ataco con "Nut crack" a un Plant <img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" />, Reptile <img src="assets/logo-class-reptile.png" width="25" alt="Reptile class logo" /> o Dusk <img src="assets/logo-class-dusk.png" width="25" alt="Dusk class logo" />, voy a tener +15% de daño. Puedo tener un Axie con cuerpo Aquatic <img src="assets/logo-class-aquatic.png" width="25" alt="Aquatic class logo" /> y con el movimiento Nut Crack, y si con ese Axie usara ese movimiento en un enemigo con class Plant<img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" />/Reptile<img src="assets/logo-class-reptile.png" width="25" alt="Reptile class logo" />/Dusk<img src="assets/logo-class-dusk.png" width="25" alt="Dusk class logo" />, si bien el cuerpo de mi Axie (Aquatic <img src="assets/logo-class-aquatic.png" width="25" alt="Aquatic class logo" />) tiene desventaja contra ese grupo, el movimiento (Beast <img src="assets/logo-class-beast.png" width="25" alt="Beast class logo" />) tiene ventaja y va a recibir el modificador +15% de todas formas.
+# Combate
+<figure align="center">
+  <img src="assets/combat-damage-modifiers.png" alt="Combate damage modifiers" />
+  <figcaption>Modificadores de daño por clase, <a href="https://axie.substack.com/p/axie-infinity-community-alpha-guide" target="_blank">fuente</a></figcaption>
+</figure>
+
+[Cuando hablé de las dinámicas entre clases](#clases-de-un-axie) hice una aclaración, y me refería a esto: los modificadores aplican si el ATAQUE (es decir, la clase de la parte que otorga el movimiento) tiene ventaja o desventaja contra el Axie atacado. Por ejemplo, si yo ataco con "Nut crack" (<img src="assets/logo-class-beast.png" width="25" alt="Beast class logo" />) a un Plant <img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" />, Reptile <img src="assets/logo-class-reptile.png" width="25" alt="Reptile class logo" /> o Dusk <img src="assets/logo-class-dusk.png" width="25" alt="Dusk class logo" />, voy a tener +15% de daño. Puedo tener un Axie con cuerpo Aquatic <img src="assets/logo-class-aquatic.png" width="25" alt="Aquatic class logo" /> y con el movimiento Nut Crack, y si con ese Axie usara ese movimiento en un enemigo con class Plant<img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" />/Reptile<img src="assets/logo-class-reptile.png" width="25" alt="Reptile class logo" />/Dusk<img src="assets/logo-class-dusk.png" width="25" alt="Dusk class logo" />, si bien el cuerpo de mi Axie (Aquatic <img src="assets/logo-class-aquatic.png" width="25" alt="Aquatic class logo" />) tiene desventaja contra ese grupo, el movimiento (Beast <img src="assets/logo-class-beast.png" width="25" alt="Beast class logo" />) tiene ventaja y va a recibir el modificador +15% de todas formas.
 
 Otra cosa a tener en cuenta, es que usando un movimiento de la misma clase que el cuerpo de mi Axie, obtengo un +10% beneficio tanto en Attack como Shield.
 
