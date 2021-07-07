@@ -25,7 +25,7 @@ La idea de esto es una guía gratuita y en español, democratizar conocimiento y
 * `Breeding:` Criar. Referencia a reproducir Axies.
 * `Crit:` Critical, o golpe crítico. En este juego, son ataques que hacen x2 del daño que harían normalmente.
 * `dApp:` Descentralized Application, o aplicaciones descentralizadas. Son (resumiendo mucho) aplicaciones o programas que utilizan alguna blockchain como motor para funcionar. 
-* `Farmear:` (Jerga) Cosechar. Refencia a realizar una misma actividad de forma repetitiva para lograr acumular la recompensa de toda esa repetición.
+* `Farmear:` (Jerga) Cosechar. Referencia a realizar una misma actividad de forma repetitiva para lograr acumular la recompensa de toda esa repetición.
 * `Fee:` Tarifa a pagar para poder realizar una TX sobre una blockchain.
 * `Grupo:` Equipo formado por 3 Axies.
 * `Huevo:` Etapa inicial de un Axie. Cuando hacés breeding, nace un huevo (que puede ser invisible), pasados 5 días, crece en un Axie adulto.
