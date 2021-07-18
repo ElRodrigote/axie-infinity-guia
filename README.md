@@ -24,7 +24,7 @@ La idea de esto es una guía gratuita y en español, democratizar conocimiento y
 * `Blockchain:` Es una tecnología para descentralizar el control sobre algo. Consiste en muchos bloques o nodos conectados para tomar decisiones sobre la cadena.
 * `Breeding:` Criar. Referencia a reproducir Axies.
 * `Crit:` Critical, o golpe crítico. En este juego, son ataques que hacen x2 del daño que harían normalmente.
-* `dApp:` Descentralized Application, o aplicaciones descentralizadas. Son (resumiendo mucho) aplicaciones o programas que utilizan alguna blockchain como motor para funcionar. 
+* `dApp:` Decentralized Application, o aplicaciones descentralizadas. Son (resumiendo mucho) aplicaciones o programas que utilizan alguna blockchain como motor para funcionar. 
 * `Farmear:` (Jerga) Cosechar. Referencia a realizar una misma actividad de forma repetitiva para lograr acumular la recompensa de toda esa repetición.
 * `Fee:` Tarifa a pagar para poder realizar una TX sobre una blockchain.
 * `Grupo:` Equipo formado por 3 Axies.
@@ -34,11 +34,11 @@ La idea de esto es una guía gratuita y en español, democratizar conocimiento y
   * `Items:` Elementos de utilidad que se usan en los land plots.
 * `Last Stand:` Son turnos adicionales que el Axie se mantiene en pie una vez noqueado. Se activa ocasionalmente, si ciertas condiciones se dan.
 * `Lunacia:` El mundo donde viven los Axies.
-* `PvE:` Player versus Environment, o Jugador contra Ambiente. En este contexto, es el modo Aventura donde avanzamos por un mapa y luchamos contra grupos de enemigos controlados por una Inteligencia Artificial.
+* `PvE:` Player versus Environment, o Jugador contra Ambiente. En este contexto, es el modo Aventura donde avanzamos por un mapa y luchamos contra grupos de enemigos controlados por una AI.
 * `PvP:` Player versus Player, o Jugador contra Jugador.
-* `Scholarship Program:` Programa de Becas, es un programa donde el equipo de Axie Infinity hace de mediador entre un Scholar y un Becado.
+* `Scholarship Program:` Programa de Becas, donde un sponsor otorga un grupo de axies a una cuenta utilizada por un becado para farmear.
 * `Sidechain:` es una blockchain alterna (L2 o Layer 2, como Ronin) cuya funcionalidad es mejorar las prestaciones de una blockchain principal (L1 o Layer 1, como Ethereum).
-* `Token:` En contexto blockchain, son objetos digitales que representan _algo_. Ese _algo_ puede ser cualquier cosa, como por ejemplo `NFTs`, divisas digitales, posiciones para votar, y más. Los tokens pueden dividirse en unidades menores, definido por cada blockchain.
+* `Token:` En contexto blockchain, son objetos digitales que representan _algo_. Ese _algo_ puede ser cualquier cosa, como por ejemplo `NFTs`, divisas digitales, posiciones para votar, y más. Los tokens pueden dividirse en unidades menores, definidas por cada blockchain.
   * `$AXS:` Axie Infinity Shard, es el token principal (y governance token) de Axie Infinity
   * `$ETH:` Ether, es el token principal (y governance token) de la blockchain Ethereum.
   * `$SLP:` Smooth Love Potion, es un utility token de Axie Infinity.
@@ -46,10 +46,11 @@ La idea de esto es una guía gratuita y en español, democratizar conocimiento y
   * `Governance:` son tokens usados para votar en las decisiones a tomar en la blockchain.
   * `NFT:` Non-Fungible Token. Para los fines prácticos de esta guía, son tokens únicos y con un dueño que representan algo, en este caso, un Axie.
   * `Utility:` son tokens usados para diferentes propósitos de utilidad para la blockchain pero NO sus votaciones.
-* `TXs`: Transacciones. Es una abrevación usada en inglés.
+* `TXs:` Transacciones. Es una abreviación usada en inglés.
 * `Wallet:` Representa un nodo de una blockchain y almacena, entre otras cosas, tokens usados en esa blockchain.
   * `Privada:` Es cuando tenemos acceso a las llaves privadas (generalmente representadas con 12 palabras aleatorias), y por lo tanto controlamos y somos responsables de lo que pasa en la wallet. (Por ejemplo Exodus, MetaMask, Daedalus, etc)
   * `Custodiada:` Es cuando NO tenemos las llaves privadas, si no que las tiene otra entidad, y ellos custodian los assets dentro de esa wallet. (Por ejemplo Binance, Ripio, BuenBit, etc)
+* `XP:` Experiencia. Son puntos necesarios para avanzar de nivel en modo PvE.
 
 `<-- FIN SALTEABLE -->`
 <br />
@@ -80,7 +81,7 @@ Al juego lo desarrolla [Sky Mavis](https://skymavis.com/), que es una startup vi
 
 Como proyecto blockchain, posee [`tokens`](#glosario) de diferentes usos que funcionan sobre Ethereum (y por lo tanto, necesitamos una wallet de Ethereum para jugar). Los Axies son [`NFTs`](#glosario) (siguiendo estandard [ERC-721](https://ethereum.org/es/developers/docs/standards/tokens/erc-721/)), $AXS <img src="assets/logo-axs.svg" width="25" alt="$AXS logo" /> son el [`governance token`](#glosario) y main token (estandard [ERC-20](https://ethereum.org/es/developers/docs/standards/tokens/erc-20/)), $SLP <img src="assets/logo-slp.png" width="25" alt="$SLP logo" /> son un [`utility token`](#glosario) (estandard ERC-20) y es la principal moneda de cambio dentro del juego, y a futuro se pueden crear nuevos tokens con otras funcionalidades.
 
-Además de eso, crearon una [`side-chain`](#glosario) llamada Ronin (con su propia wallet) para alivianar las transacciones ([`TXs`](#glosario)) y los costos de las TXs. Cada vez que hacemos algo (comprar un Axie, breeding, vender alguno de los tokens, comprar tokens, enviar tokens de una wallet a otra, etc) realizamos una TX que la blockchain tiene que procesar, y cada TX realizada paga un [`fee`](#glosario). En la blockchain de Ethereum, esos fees se llaman "gas", y dependiendo el momento del mercado, puede ser MUY caro (decenas y decenas de USD cada TX). Para resolver esto, crearon Ronin para hacer la mayoría de las transacciones FUERA de Ethereum, y cuando sea necesario, empaquetar las TXs necesarias y procesarlas como una sola TX dentro de Ethereum para ahorrar costos al usuario.
+Además de eso, crearon una [`sidechain`](#glosario) llamada Ronin (con su propia wallet) para reducir las transacciones ([`TXs`](#glosario)) y los costos de las TXs. Cada vez que hacemos algo (comprar un Axie, breeding, vender alguno de los tokens, comprar tokens, enviar tokens de una wallet a otra, etc) realizamos una TX que la blockchain tiene que procesar, y cada TX realizada paga un [`fee`](#glosario). En la blockchain de Ethereum, esos fees se llaman "gas", y dependiendo el momento del mercado, puede ser MUY caro (decenas y decenas de USD cada TX). Para resolver esto, crearon Ronin para hacer la mayoría de las transacciones FUERA de Ethereum, y cuando sea necesario, empaquetar las TXs necesarias y procesarlas como una sola TX dentro de Ethereum para ahorrar costos al usuario.
 
 `<-- FIN SALTEABLE -->`
 <br />
@@ -104,12 +105,12 @@ Además de eso, la inversión inicial es si uno quiere comprar los Axies y tener
   * 150 SLP * USD 0.129 * 30 (días) = `USD ~580`
   * Inversión inicial estimada (precios actuales, axies/huevos más baratos, fees incluidas): `USD ~330`
 
-A grosso modo, a valores y variable de hoy, en aprox. 1 mes de farmeo bien hecho recuperarías tu inversión inicial y de ahí en adelante, es ganancia.
+A grosso modo, a valores y variable de hoy, en aprox. 1 mes de farmeo bien hecho sería posible recuperar tu inversión inicial y de ahí en adelante, es ganancia.
 <br />
 <br />
 
 ## Otras formas de monetizar
-Lo que puse arriba es la forma más simple y rápida de monetizarse. Otra forma es a través del breeding (explicado más adelante) para generar nuevos huevos y venderlos en el marketplace. A precios de hoy, los más baratos rondan USD 100, así que SUPONGO que poniendo en el marketplace ya sea ese huevo o el Axie que sale 5 días después de ahí, a un precio de unos USD 60~80, debería ser una venta relativamente rápida, pero como adelanto, comprando 3 Axies podés generar un esquema de reproducción infinita. El breeding tiene un costo adicional, asi que eso complejiza esta forma de monetizar (no por ello menos viable). Pero esto voy a expandirlo en la sección de breeding.
+Lo que puse arriba es la forma más simple y rápida de monetizarse. Otra forma es a través del breeding (explicado más adelante) para generar nuevos huevos y venderlos en el marketplace. A precios de hoy, los más baratos rondan USD 100, así que SUPONGO que poniendo en el marketplace ya sea ese huevo o el Axie que sale 5 días después de ahí, a un precio de unos USD 60~80, debería ser una venta relativamente rápida, pero como adelanto, comprando 3 Axies podés generar un esquema de reproducción infinita. El breeding tiene un costo adicional, así que eso complejiza esta forma de monetizar (no por ello menos viable). Pero esto voy a expandirlo en la sección de breeding.
 
 Haciendo misiones particulares y contenido particular en los land plots (explicado más adelante) se puede farmear $AXS <img src="assets/logo-axs.svg" width="25" alt="$AXS logo" /> pero no hay mucha información sobre esto en particular (todavía), así que no sé qué tan viable es.
 
@@ -121,7 +122,7 @@ A partir de una etapa en particular del PvP, empiezan a aumentar las posibles re
 
 ## Infracciones
 Por ahora las únicas prohibiciones fuertes son:
-  * Hacer multicuenta. Es decir, una misma persona manejando multiples cuentas a la vez. Se considera para esto a utilizar diferentes cuentas (no billeteras, cuentas) en el mismo dispositivo, en un lapso menor a 24h (modificar la fecha y hora del dispositivo queda registrado y está penado a los fines de esta infracción)
+  * Hacer multicuenta. Es decir, una misma persona manejando múltiples cuentas a la vez. Se considera para esto a utilizar diferentes cuentas (no billeteras, cuentas) en el mismo dispositivo, en un lapso menor a 24h (modificar la fecha y hora del dispositivo queda registrado y está penado a los fines de esta infracción)
   * Utilizar bots. Es decir, usar programas para automatizar el farmeo o el juego en general.
 
 Cualquiera de estas dos infracciones puede llevar a por lo menos una de las siguientes:
@@ -134,13 +135,13 @@ Cualquier actividad fuera de eso, está permitido.
 <br />
 
 ## Scholarship Program
-Es un programa para otorgar becas, en donde una persona provee una cuenta con 3 axies junto a una serie de términos y condiciones. Esa cuenta es sorteada entre muchos interesados, y quien gane el sorteo pasa a recibir acceso (y se convierte en Becado). El Becado adquiere acceso a la cuenta y tiene que cumplir con los términos y condiciones definidas, para luego repartir entre Scholar y Becado todas las ganancias generadas.
+Es un programa para otorgar becas, en donde una persona provee una cuenta con 3 axies junto a una serie de términos y condiciones. Esa cuenta es sorteada entre muchos interesados, y quien gane el sorteo pasa a recibir acceso (y se convierte en Becado). El Becado adquiere acceso a la cuenta y tiene que cumplir con los términos y condiciones definidas, para luego repartir entre Sponsor y Becado todas las ganancias generadas.
 
-[En este link](https://axieedge.com/axie-scholarship-programs/) dejo más información sobre diferentes Scholarship Programs. Como norma general, las recompenzas se reparten 35% al Becado, 65% al Scholar, y los dos riesgos más grandes respecto al Scholarship Program hoy, son:
-* Que el Becado haga multicuenta, y puede incurrir en un ban a los Axies del Scholar (y por lo tanto, caga el Scholar).
-* Que el Scholar no reparta una mierda las ganancias, entonces el que caga es el Becado.
+[En este link](https://axieedge.com/axie-scholarship-programs/) dejo más información sobre diferentes Scholarship Programs. Como norma general, las recompensas se reparten 35% al Becado, 65% al Sponsor, y los dos riesgos más grandes respecto al Scholarship Program hoy, son:
+* Que el Becado haga multicuenta, y puede incurrir en un ban a los Axies del Scholar (y por lo tanto, caga el Sponsor).
+* Que el Sponsor no reparta una mierda las ganancias, entonces el que caga es el Becado.
 
-**IMPORTANTE:** El Becado tiene acceso a una cuenta (cuyo ingreso es con e-mail y contraseña) pero no tiene acceso a la wallet donde están los tokens (sean los Axies, los $SLP <img src="assets/logo-slp.png" width="25" alt="$SLP logo" />, los $AXS <img src="assets/logo-axs.svg" width="25" alt="$AXS logo" />, o cualquier otro token de esa wallet), por lo tanto el Becado SOLAMENTE puede jugar sin poder comprometer la integridad de los assets que tiene el Scholar de la Scholarship.
+**IMPORTANTE:** El Becado tiene acceso a una cuenta (cuyo ingreso es con e-mail y contraseña) pero no tiene acceso a la wallet donde están los tokens (sean los Axies, los $SLP <img src="assets/logo-slp.png" width="25" alt="$SLP logo" />, los $AXS <img src="assets/logo-axs.svg" width="25" alt="$AXS logo" />, o cualquier otro token de esa wallet), por lo tanto el Becado SOLAMENTE puede jugar sin poder comprometer la integridad de los assets que tiene el Sponsor de la Scholarship.
 <br />
 <br />
 
@@ -168,9 +169,14 @@ Cuando está en etapa Huevo, no podemos ver ninguna característica del Axie (po
 ## Estadísticas de un Axie
 Todos los Axies tienen 4 estadísticas:
   * :green_heart: **HP**: determina la vida del Axie antes de ser noqueado.
-  * :zap: **Speed**: veloicdad, es la principal estadística que define el orden para actuar de cada Axie en cada turno, y también reduce la probabilidad de recibir un [`crit`](#glosario).
+  * :zap: **Speed**: velocidad, es la principal estadística que define el orden para actuar de cada Axie en cada turno, y también reduce la probabilidad de recibir un [`crit`](#glosario).
   * :fire: **Morale**: determina las chances de hacer un crit, y también la probabilidad tanto de entrar en [`last stand`](#glosario) como de obtener más turnos de last stand.
-  * :star: **Skill**: define la cantidad de daño exta que un Axie hace cuando juega más de una carta a la vez. A esto se le dice combo.
+  * :star: **Skill**: define la cantidad de daño extra que un Axie hace cuando juega más de una carta a la vez. A esto se le dice combo.
+<br />
+<br />
+
+## Niveles
+Jugando PvE los Axies pueden ganar [`XP`](#glosario) y subir de nivel, esto SOLO aplica para PvE. Un Axie entre más suba de nivel, suben sus 4 estadíticas y puede avanzar cada vez más y más lejos en el mapa de Adventure.
 <br />
 <br />
 
@@ -224,7 +230,23 @@ Grupo:
 <br />
 
 ## Composición física del Axie
-Un Axie está compuesto por un body, y 6 body parts que van "pegadas" al body. Tanto las partes como el cuerpo tienen una clase particular, es decir que podemos tener un Axie Plant <img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" /> con partes de otras clases, o un Axie Plant <img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" /> con todas partes Plant <img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" />. Además, cada parte otorga un bono de stats según su clase.
+Un Axie está compuesto por un body, y 6 body parts que van "pegadas" al body. Tanto las partes como el cuerpo tienen una clase particular, es decir que podemos tener un Axie Plant <img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" /> con partes de otras clases, o un Axie Plant <img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" /> con todas partes Plant <img src="assets/logo-class-plant.png" width="25" alt="Plant class logo" />. 
+
+<figure align="center">
+  <img src="assets/axie-parts-examples.png" alt="Axie parts examples" />
+  <figcaption>Partes de un axie con ejemplos, <a href="https://pinkipollos.es/guias/axies/" target="_blank">fuente</a></figcaption>
+</figure>
+
+
+En un futuro, las partes van a tener un nivel propio y una rareza, y vamos a poder hacer que las partes evolucionen y mejoren.
+
+<figure align="center">
+  <img src="assets/axie-parts-evolution.png" alt="Axie parts evolution" />
+  <figcaption>Evolución de partes de un Axie, <a href="https://www.coingecko.com/buzz/an-intro-to-axie-infinity-pokemon-on-the-blockchain" target="_blank">fuente</a></figcaption>
+</figure>
+
+
+Además, cada parte otorga un bono de stats según su clase.
 
 Stats por part class.
 * <img src="assets/logo-class-aquatic.png" width="25" alt="Aquatic class logo" /> Aquatic: +3 Speed, +1 HP.
@@ -265,6 +287,39 @@ De arriba hacia abajo, y de izquierda a derecha, las partes de una carta son:
 * Caja de texto con descripción del movimiento, en este caso: Hacer +120% de daño si este movimiento se juega junto a otro movimiento "Nut Cracker"
 <br />
 <br />
+
+## Especiales: Origin, MEO Corp y Seasonal
+Hay bichitos especiales, que podríamos categorizar en 2: Los Origin y los MEO Corp.
+
+Los Origin son 4088 chobis no más, iniciales y creados por el equipo de Sky Mavis como forma de fundraising, por lo que los huevos Origin tenían a forma de atractivo diferentes probabilidades de nacer con 0 a muchas partes Mystic. Una parte Mystic es visualmente diferente, y si es una carta con ataque, tiene un ataque diferente especial. Además de eso, las Mystic parts van a ser las únicas que podremos evolucionar hasta Legendary. 
+
+<figure align="center">
+  <img src="assets/axie-special-origin-mystic.png" alt="Origin axie with mystic parts" />
+  <figcaption>Axie origin con partes mystic, <a href="https://medium.com/axie-infinity/mystic-axies-jewels-for-adigital-age-4dd1b599ca61" target="_blank">fuente</a></figcaption>
+</figure>
+
+MEO Corp (Monster Engineering Operations Corporation) es un nombre que se inventaron los de Sky Mavis para una corporación del juego que crea axies especiales para eventos particulares e incuban huevos para esos eventos, que luego reparten entre los usuarios según una serie de condiciones que dependen de cada evento (por ej programa de referidos). También tienen partes especiales pero dan un cambio solamente estético, por lo que no influyen en combate.
+
+<figure align="center">
+  <img src="assets/axie-special-meo-corp.png" alt="MEO Corp axie" />
+  <figcaption>Axie de MEO Corp, <a href="https://pinkipollos.es/guias/axies/" target="_blank">fuente</a></figcaption>
+</figure>
+
+Seasonal (por ejemplo, temática navideña, temática japonesa, etc) y si bien hay partes que son relacionadas a la temática, se suelen conseguir a través de breedings específicos y no a través de probabilidad del huevo en si. Conseguir esas partes especiales a travé de breeding específico, solo se puede hacer mientras el seasonal event esté disponible, luego no se pueden conseguir.
+
+<figure align="center">
+  <img src="assets/axie-special-seasonal-japanese.png" alt="Seasonal japanese axie" />
+  <figcaption>Axie estacional japonés</figcaption>
+</figure>
+<figure align="center">
+  <img src="assets/axie-special-seasonal-xmas.png" alt="Seasonal Xmas axie" />
+  <figcaption>Axie estacional navideño, <a href="https://theycb.com/2020/12/23/lets-get-frosty-why-i-invested-in-an-axie-infinity-body-style-an-axiemas-special-part-2/" target="_blank">fuente</a></figcaption>
+</figure>
+
+Todas estas partes especiales de los axies, NO son heredables.
+
+<br />
+<br />
 <br />
 
 # Combate
@@ -286,3 +341,17 @@ Ejemplo 2: Mismo Axie Beast <img src="assets/logo-class-beast.png" width="25" al
 * Shield: 30 + 3 + 5 (+15% por modificador al tener ventaja de clase) = 38
 
 Por eso es importante intentar tener en cuenta qué ataque usamos y quién puede recibirlo.
+<br />
+<br />
+
+## Energía
+La energía es un elemento del juego que nos permite obtener una recompensa extra si ganamos cualquier modo de combate.
+
+En PvP, si ganamos o perdemos, afectan nuestros puntos de PvP, pero si ganamos habiendo gastado energía podremos recibir $SLP como recompensa adicional.
+
+En PvE, si ganamos recibimos $SLP (con un tope diario de 100 tokens en este modo) pero si ganamos habiendo gastado energía podremos recibir XP como recompensa adicional.
+
+<figure align="center">
+  <img src="assets/combat-energy.jpg" alt="Combat energy explanation" />
+  <figcaption>Explicación de energía, <a href="https://twitter.com/axieinfinity/status/1329376422176165889" target="_blank">fuente</a></figcaption>
+</figure>
